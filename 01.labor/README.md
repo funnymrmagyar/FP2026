@@ -2,10 +2,8 @@
 
 ;; I. Könyvtárfüggvények használata nélkül, definiáljuk azt a függvényt, amely meghatározza
 
-;; - két szám összegét, különbségét, szorzatát, hányadosát, osztási maradékát,
-;; - egy első fokú egyenlet gyökét,
-;; - egy szám abszulút értékét,
-;; - egy szám előjelét,
+
+
 ;; - két argumentuma közül a maximumot,
 ;; - két argumentuma közül a minimumot,
 ;; - egy másodfokú egyenlet gyökeit,
