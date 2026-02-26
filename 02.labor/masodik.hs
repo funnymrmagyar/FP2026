@@ -6,6 +6,10 @@
 szamJegySzorzat 0=1
 szamJegySzorzat n =mod n 10*szamJegySzorzat(div n 10)
 
+-- szjSzorzat n
+
+--     n<0=szjSzorzat (abs n)
+
 -- - egy szám számjegyeinek összegét (2 módszerrel),
 -- - egy szám számjegyeinek számát (2 módszerrel),
 -- - egy szám azon számjegyeinek összegét, mely paraméterként van megadva, pl. legyen a függvény neve fugv4, ekkor a következő meghívásra, a következő eredményt kell kapjuk:
