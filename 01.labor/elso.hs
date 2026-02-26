@@ -144,9 +144,18 @@ betuSzam=zip['a'..'z'][0..25]
 
 betuSzam2=zip['a'..'z'] [0..]
 -- - a következő listát: $$[(0, 5), (1, 4), (2, 3), (3, 2), (4, 1), (5, 0)]$$, majd általánosítsuk a feladatot.
+szamok=zip [0..5] [5,4..0]
+szamok2 n=zip [0..n] [n,n-1..0]
 
+szamok3 n=[(i,n-i)|i<-[0..n]]
 
 -- - azt a listát, ami felváltva tartalmaz True és False értékeket.
+trueFalse n=[mod i 2==0|i<-[0..n]]
+
+trueFalse2 n=take n ls
+    where
+        ls=[True,False]++ls
+
 main::IO ()
 main=do
     putStrLn "masodfoku"
@@ -160,3 +169,4 @@ main=do
     putStrLn "negyzetszam"
     print(negyzetszam 10)
     putStrLn ("kobszam" ++show (kobszam 11))
+    print(szamok2 10)
