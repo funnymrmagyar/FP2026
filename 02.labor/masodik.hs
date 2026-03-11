@@ -82,6 +82,7 @@ fiboN n=fibo 0 1 0 n
 szjOsszegLs ls=map szjOsszeg ls
 
 
+
 -- **Megoldott feladatok:**
 
 -- - Határozzuk meg egy szám számjegyeinek összegét:
