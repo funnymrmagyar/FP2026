@@ -26,7 +26,7 @@ III.
   Például:
 
   ```haskell
-  > ls = [("golya",120),("fecske",85),("cinege",132)]
+  > ls = [("golya",120,"ms"),("fecske",85,"cj"),("cinege",132,"ms")]
   > osszegT ls
   337
   ```
